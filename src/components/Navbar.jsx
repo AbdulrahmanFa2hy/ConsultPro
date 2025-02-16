@@ -57,7 +57,7 @@ export default function Navbar() {
             transition={{ duration: 0.5 }}
             className="flex-shrink-0"
           >
-            <Link to="/" className="text-2xl font-bold text-primary">
+            <Link to="/" className="text-2xl font-bold text-primary" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
               ConsultPro
             </Link>
           </motion.div>
